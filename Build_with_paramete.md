@@ -26,14 +26,6 @@ cat /etc/group
 ## Step_2: create key from jenkins master.
 ssh-keygen -t ed25519 -C "jenkins-deploy-key" -f ~/.ssh/id_ed25519 -N ""
 
-<img width="940" height="277" alt="image" src="https://github.com/user-attachments/assets/edf550ac-d893-4d6a-a9eb-b6a0d235e880" />
-
-
-
-
-
-
-
 ubuntu@ip-172-31-23-3:~$ pwd
 /home/ubuntu
 ubuntu@ip-172-31-23-3:~$ cd .ssh/
@@ -41,10 +33,17 @@ ubuntu@ip-172-31-23-3:~/.ssh$ ls
 authorized_keys  id_ed25519  id_ed25519.pub
 
 
+
+<img width="940" height="277" alt="image" src="https://github.com/user-attachments/assets/edf550ac-d893-4d6a-a9eb-b6a0d235e880" />
+
+
 ## Step_3: Copy public Ip an Pest into the Qa Environment like this. ( QA Env.)
 
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/authorized_keys.
+
+<img width="940" height="228" alt="image" src="https://github.com/user-attachments/assets/00615a58-9d44-47fd-9504-70c346ffcb58" />
+
 
 # Run On Jenkins Server.
 ssh -o StrictHostKeyChecking=no ubuntu@qa-ip 'echo ok'
