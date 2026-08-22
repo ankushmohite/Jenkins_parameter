@@ -1,13 +1,19 @@
-## Install Jenkins.
+## Install Jenkins
+
+Run the following commands:
+
+```bash
 sudo apt update
 sudo apt install fontconfig openjdk-21-jre
 java -version
 
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+
 echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
+
 sudo apt update
 sudo apt install jenkins
 
@@ -15,11 +21,13 @@ sudo apt install jenkins
 sudo apt install docker.io -y
 
 Then add ubuntu user to the docker group on workers.
+
 sudo usermod -aG docker ubuntu
 sudo usermod -aG docker jenkins
 
 
 you can refresh the group
+
 newgrp docker
 cat /etc/group
 
