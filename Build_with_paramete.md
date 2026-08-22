@@ -43,8 +43,8 @@ authorized_keys  id_ed25519  id_ed25519.pub
 
 ## Step_3: Copy public Ip an Pest into the Qa Environment like this. ( QA Env.)
 
-chmod 700 ~/.ssh
-chmod 600 ~/.ssh/authorized_keys.
+chmod 700 ~/.ssh 
+chmod 600 ~/.ssh/authorized_keys
 
 <img width="940" height="228" alt="image" src="https://github.com/user-attachments/assets/00615a58-9d44-47fd-9504-70c346ffcb58" />
 
