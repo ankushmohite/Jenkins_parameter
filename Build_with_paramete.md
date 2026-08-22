@@ -32,6 +32,8 @@ ssh-keygen -t ed25519 -C "jenkins-deploy-key" -f ~/.ssh/id_ed25519 -N ""
 
 
 
+
+
 ubuntu@ip-172-31-23-3:~$ pwd
 /home/ubuntu
 ubuntu@ip-172-31-23-3:~$ cd .ssh/
