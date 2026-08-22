@@ -50,16 +50,26 @@ chmod 600 ~/.ssh/authorized_keys
 
 
 # Run On Jenkins Server.
+Test SSH connectivity from the Jenkins server:
+
 ssh -o StrictHostKeyChecking=no ubuntu@qa-ip 'echo ok'
 should print: ok
 
 ## Step_4: Create credential for private key.
 
+<img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/c3b34ac8-ec6b-4b6e-8f02-20b2c03c7535" />
+
 
 ## Step_5:  Create credentials for dev, qa & uat.
 
+<img width="940" height="521" alt="image" src="https://github.com/user-attachments/assets/8f533581-67f5-4fde-8257-6a41c4f602a0" />
+
+
 
 ## Step_6: Credential for docker-hub username and password.
+
+<img width="940" height="594" alt="image" src="https://github.com/user-attachments/assets/919b9f5e-4957-4815-b429-d4e70b109f27" />
+
 
 docker login -u ankushmohite
 dckr_pat__BvfBJSPK4_F9tGoAHJdfv2Nzng
