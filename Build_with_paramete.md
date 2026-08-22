@@ -69,8 +69,8 @@ should print: ok
 
 ## Step_6: Credential for docker-hub username and password.
 
-<img width="940" height="594" alt="image" src="https://github.com/user-attachments/assets/919b9f5e-4957-4815-b429-d4e70b109f27" />
-
-
 docker login -u ankushmohite
 dckr_pat__BvfBJSPK4_F9tGoAHJdfv2Nzng
+
+
+<img width="940" height="594" alt="image" src="https://github.com/user-attachments/assets/919b9f5e-4957-4815-b429-d4e70b109f27" />
