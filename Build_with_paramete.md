@@ -20,7 +20,7 @@ sudo usermod -aG docker ubuntu...
 sudo usermod -aG docker jenkins
 
 
-you can refresh the group
+you can refresh the group.
 newgrp docker...
 cat /etc/group
 
