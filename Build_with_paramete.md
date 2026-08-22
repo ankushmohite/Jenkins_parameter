@@ -25,6 +25,9 @@ cat /etc/group
 Step_2: create key from jenkins master.
 ssh-keygen -t ed25519 -C "jenkins-deploy-key" -f ~/.ssh/id_ed25519 -N ""
 
+<img width="940" height="277" alt="image" src="https://github.com/user-attachments/assets/9c2b94ca-dc9b-42a5-b06c-6d7359cac9fa" />
+
+
 ubuntu@ip-172-31-23-3:~$ pwd
 /home/ubuntu
 ubuntu@ip-172-31-23-3:~$ cd .ssh/
