@@ -52,3 +52,8 @@ We are using plugins to add new functionality to Jenkins.
 So, plugins allow Jenkins to integrate with different tools in the environment.
 
 Example: Git, Docker, Maven.
+
+
+# Jenkins Workspace
+
+Jenkins workspace is a directory to store source code and perform build, testing, and other job-related tasks.
