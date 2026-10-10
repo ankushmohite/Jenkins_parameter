@@ -18,3 +18,17 @@ So, we are using slave, so jenkins use to distribute workload to the multiple sl
 
 # Poll SCM
 Poll SCM checks Git repository at regular intervals to see if any code changes have been made. so, Jenkins automatically triggers the build.
+
+# How to Setup Agent?
+
+we will setup agent by using SSH Method.
+
+So, first go to Manage Jenkins. There is an option in Node. Click on "New Node".
+
+After we will give the Agent name & select type.
+
+After that we mention a few more detail like Name, Remote root directory, Labels, Host. In Host we can mention Slave Private IP.
+
+Then Add Credentials with Private key.
+
+Then we can select Manually trusted key Verification strategy then Save.
