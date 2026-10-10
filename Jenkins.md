@@ -5,3 +5,12 @@ When developer will write the code. an operation engineer should take that code,
 CI use to automate build and test code whenever developer push changes to the git repos.
 
 CD use to automate the process of depolying an code to an environment.
+
+
+# Jenkins Master-Slave
+
+Basically, master is responsible for managing all the slave instance.
+
+Let us assume we have 100 build in our master. So, if we build all 100 in master. So most of the change to get the performance issue.
+
+So, we are using slave, so jenkins use to distribute workload to the multiple slave.
