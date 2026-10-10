@@ -83,3 +83,5 @@ We have an active environment that serves production traffic, while the inactive
 
 I use the `catchError` block in Jenkins Pipeline. It allows the pipeline to continue executing even if a stage fails.
 
+## Build with Parameters.
+In my project, I use Build with Parameters to select the environment, such as Dev, QA, or UAT. Jenkins deploys the application to the selected environment.
