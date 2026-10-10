@@ -19,6 +19,10 @@ So, we are using slave, so jenkins use to distribute workload to the multiple sl
 # Poll SCM
 Poll SCM checks Git repository at regular intervals to see if any code changes have been made. so, Jenkins automatically triggers the build.
 
+# Build Periodically
+
+Build Periodically in Jenkins triggers the job at the scheduled time or interval you have configured.
+
 # How to Setup Agent?
 
 we will setup agent by using SSH Method.
