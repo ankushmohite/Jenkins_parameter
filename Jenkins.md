@@ -57,3 +57,23 @@ Example: Git, Docker, Maven.
 # Jenkins Workspace
 
 Jenkins workspace is a directory to store source code and perform build, testing, and other job-related tasks.
+
+# Jenkins Agent
+
+A Jenkins agent helps distribute the workload from the Jenkins master to multiple nodes.
+
+# Procedure to Create a Job
+
+So, in the Jenkins dashboard, there is an option in "New Item".
+
+So, we will give the "Item Name" and select "Freestyle" or "Pipeline", which you want to do.
+
+After that, we mention a few more details in the job, like Project Name, Description, SCM, and Branch to Build.
+
+Then Apply & Save.
+
+# Blue-Green Deployment.
+
+Basically, in which we have 2 environments, Blue and Green.
+
+We have an active environment that serves production traffic, while the inactive one is updated with new changes.
