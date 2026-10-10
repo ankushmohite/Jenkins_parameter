@@ -14,3 +14,7 @@ Basically, master is responsible for managing all the slave instance.
 Let us assume we have 100 build in our master. So, if we build all 100 in master. So most of the change to get the performance issue.
 
 So, we are using slave, so jenkins use to distribute workload to the multiple slave.
+
+
+# Poll SCM
+Poll SCM checks Git repository at regular intervals to see if any code changes have been made. so, Jenkins automatically triggers the build.
