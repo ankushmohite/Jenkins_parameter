@@ -77,3 +77,9 @@ Then Apply & Save.
 Basically, in which we have 2 environments, Blue and Green.
 
 We have an active environment that serves production traffic, while the inactive one is updated with new changes.
+
+
+## Question: If the First Stage Fails, How Do You Continue the Remaining Stages?
+
+I use the `catchError` block in Jenkins Pipeline. It allows the pipeline to continue executing even if a stage fails.
+
