@@ -36,3 +36,19 @@ After that we mention a few more detail like Name, Remote root directory, Labels
 Then Add Credentials with Private key.
 
 Then we can select Manually trusted key Verification strategy then Save.
+
+# Jenkins Credentials
+
+Jenkins Credentials is a way to securely store secret information like username, password or keys. 
+To keep sensitive data safe and separate from main job configuration.
+
+Because of this, if someone views the job, they can't see the actual secret.
+
+
+# Plugins
+
+We are using plugins to add new functionality to Jenkins.
+
+So, plugins allow Jenkins to integrate with different tools in the environment.
+
+Example: Git, Docker, Maven.
