@@ -85,3 +85,10 @@ I use the `catchError` block in Jenkins Pipeline. It allows the pipeline to cont
 
 ## Build with Parameters.
 In my project, I use Build with Parameters to select the environment, such as Dev, QA, or UAT. Jenkins deploys the application to the selected environment.
+
+
+1. What is SonarQube?
+SonarQube is a code quality tool used to find bugs and security issues in source code.
+
+2. What is Trivy?
+Trivy is a security scanning tool used to find vulnerabilities in Docker images, dependencies, and configuration files.
