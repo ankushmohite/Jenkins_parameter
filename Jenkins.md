@@ -124,3 +124,19 @@ Argo CD monitors the Git repository and automatically synchronizes Kubernetes se
 
 ## How do you integrate Argo CD with Kubernetes?
 We install Argo CD in the Kubernetes cluster then connect it to the Git repository then configure a repository path and target namespace.
+
+
+# What is RBAC in Jenkins?
+
+RBAC stands for Role-Based Access Control. It is used to manage user permissions in Jenkins based on their roles.
+
+For example, we can create roles such as Admin, Developer, and Tester and assign different permissions to each role.
+
+## How does RBAC work in Jenkins?
+
+1. Install the Role-based Authorization Strategy plugin.
+2. Enable the role-based authorization strategy in Jenkins security settings.
+3. Go to Manage Jenkins → Manage and Assign Roles.
+4. Select Manage Roles, create roles, and assign the required permissions.
+5. Select Assign Roles and assign roles to Jenkins users.
+6. Users can perform only the actions allowed by their assigned permissions.
