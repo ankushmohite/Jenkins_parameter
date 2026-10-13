@@ -140,3 +140,9 @@ For example, we can create roles such as Admin, Developer, and Tester and assign
 4. Select Manage Roles, create roles, and assign the required permissions.
 5. Select Assign Roles and assign roles to Jenkins users.
 6. Users can perform only the actions allowed by their assigned permissions.
+
+## What is Jenkins Shared Library?
+
+A Jenkins Shared Library is used to reuse common pipeline code across multiple Jenkins pipelines instead of writing the same code again and again.
+
+We have multiple projects and use the same steps like building a Docker image, running SonarQube analysis. so, we can create a Shared Library and reuse that code in different Jenkins pipelines.
