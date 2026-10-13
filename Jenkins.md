@@ -146,3 +146,7 @@ For example, we can create roles such as Admin, Developer, and Tester and assign
 A Jenkins Shared Library is used to reuse common pipeline code across multiple Jenkins pipelines instead of writing the same code again and again.
 
 We have multiple projects and use the same steps like building a Docker image, running SonarQube analysis. so, we can create a Shared Library and reuse that code in different Jenkins pipelines.
+
+## How to Integrate Jenkins with GitHub
+
+First, I generate a Personal Access Token in GitHub. Then, I go to Jenkins Credentials and add my GitHub username and token. This allows Jenkins to access my private GitHub repository securely.
