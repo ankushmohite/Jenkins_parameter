@@ -159,7 +159,7 @@ A GitHub Webhook automatically triggers Jenkins whenever a developer pushes new 
 
 Basically, we face issues during deployment. Sometimes, the Jenkins build fails, so we check the Console Output to identify what went wrong during the pipeline.
 
-One issue I handled was that the application was working in the development environment but not in production.
+One issue I handled that the application was working in the development environment but not in production.
 
 In that situation, we first checked the required configurations and application logs. If the issue could not be resolved quickly, we rolled back to the previous stable version.
 
