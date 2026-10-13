@@ -114,3 +114,10 @@ First, we generate a token in SonarQube and add it to Jenkins credentials. Then,
 **Step 5:** We create a webhook in SonarQube under Administration → Configuration → Webhooks and add the Jenkins webhook URL.
 
 Finally, we configure the Jenkins pipeline to run SonarQube analysis and check the code quality.
+
+## What is Argo CD?
+Argo CD is a GitOps tool used to deploy and manage applications in Kubernetes.
+Argo CD monitors the Git repository and automatically synchronizes Kubernetes service when changes are detected.
+
+## How do you integrate Argo CD with Kubernetes?
+We install Argo CD in the Kubernetes cluster then connect it to the Git repository then configure a repository path and target namespace.
