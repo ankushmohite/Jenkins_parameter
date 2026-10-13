@@ -154,3 +154,15 @@ First, I generate a Personal Access Token in GitHub. Then, I go to Jenkins Crede
 ## GitHub Webhook
 
 A GitHub Webhook automatically triggers Jenkins whenever a developer pushes new code to a specific branch, such as the `release` branch.
+
+## What Are the Daily Challenges You Face as a DevOps Engineer?
+
+Basically, we face issues during deployment. Sometimes, the Jenkins build fails, so we check the Console Output to identify what went wrong during the pipeline.
+
+One issue I handled was that the application was working in the development environment but not in production.
+
+In that situation, we first checked the required configurations and application logs. If the issue could not be resolved quickly, we rolled back to the previous stable version.
+
+Then, we followed the back-merge strategy. We created a bug-fix branch from the main release branch, and the developer fixed the bug.
+
+After fixing the bug, we tested the application in the development environment. Then, we raised a pull request from development to staging. Once testing was completed successfully in staging, we raised another pull request from staging to production.
