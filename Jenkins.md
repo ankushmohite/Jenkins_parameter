@@ -24,7 +24,7 @@ Poll SCM checks Git repository at regular intervals to see if any code changes h
 
 # Build Periodically
 
-Build Periodically in Jenkins triggers the job at the scheduled time or interval you have configured.
+Build Periodically will triggers the job at the scheduled time or interval you have configured.
 
 # How to Setup Agent?
 
