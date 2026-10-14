@@ -128,18 +128,11 @@ We install Argo CD in the Kubernetes cluster then connect it to the Git reposito
 
 # What is RBAC in Jenkins?
 
-RBAC stands for Role-Based Access Control. It is used to manage user permissions in Jenkins based on their roles.
-
-For example, we can create roles such as Admin, Developer, and Tester and assign different permissions to each role.
+RBAC stands for Role-Based Access Control is use to control who can access the resources and what action they can perform. we used to manage user permissions in Jenkins based on their roles.
 
 ## How does RBAC work in Jenkins?
 
-1. Install the Role-based Authorization Strategy plugin.
-2. Enable the role-based authorization strategy in Jenkins security settings.
-3. Go to Manage Jenkins → Manage and Assign Roles.
-4. Select Manage Roles, create roles, and assign the required permissions.
-5. Select Assign Roles and assign roles to Jenkins users.
-6. Users can perform only the actions allowed by their assigned permissions.
+We install plugin --> Manage Jenkins → Manage and Assign Roles --> create roles, and assign required permissions.
 
 ## What is Jenkins Shared Library?
 
