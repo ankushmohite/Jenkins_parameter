@@ -150,12 +150,12 @@ A GitHub Webhook automatically triggers Jenkins whenever a developer pushes new 
 
 ## What Are the Daily Challenges You Face as a DevOps Engineer?
 
-Basically, we face issues during deployment. Sometimes, the Jenkins build fails, so we check the Console Output to identify what went wrong during the pipeline.
+we face different challenges during deployments. Sometimes, Jenkins builds fail, so we check the Console Output to identify,  what went wrong during build.
 
-One issue I handled that the application was working in the development environment but not on production.
+One issue I handled was when an application worked properly in the development environment but failed in production.
 
-In that situation, we first checked the required configurations and application logs. If the issue could not be resolved quickly, we rolled back to the previous stable version.
+In that situation, we checked the required configurations and application logs. If the issue could not be resolved quickly, we rolled back to the previous stable version.
 
-Then, we followed the back-merge strategy. We created a bug-fix branch from the main release branch, and the developer fixed the bug.
+Then, we followed back-merge strategy. We created a bug-fix branch from the main release branch, and the developer will fixed the bug.
 
-After fixing the bug, we tested the application in the development environment. Then, we raised a pull request from development to staging. Once testing was completed successfully in staging, we raised another pull request from staging to production.
+If the bug is clear. then we tested the application in development environment. Then, we raised a pull request from development to staging. Once testing was completed successfully in staging, we raised pull request from staging to production.
