@@ -136,7 +136,7 @@ We install plugin --> Manage Jenkins → Manage and Assign Roles --> create role
 
 ## What is Jenkins Shared Library?
 
-A Jenkins Shared Library is used to reuse common pipeline code across multiple Jenkins pipelines instead of writing the same code again and again.
+A Jenkins Shared Library is used to reuse common code across multiple Jenkins pipelines instead of writing the same code again and again.
 
 We have multiple projects and use the same steps like building a Docker image, running SonarQube analysis. so, we can create a Shared Library and reuse that code in different Jenkins pipelines.
 
