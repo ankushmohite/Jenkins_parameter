@@ -142,7 +142,7 @@ We have multiple projects and use the same steps like building a Docker image, r
 
 ## How to Integrate Jenkins with GitHub
 
-First, I generate a Personal Access Token in GitHub. Then, I go to Jenkins Credentials and add my GitHub username and token. This allows Jenkins to access private GitHub repository securely.
+First, I generate a Personal Access Token in GitHub. Then, I go to Jenkins Credentials and add GitHub username and token. This allows Jenkins to access private GitHub repository securely.
 
 ## GitHub Webhook
 
