@@ -102,7 +102,7 @@ Trivy is a security scanning tool used to find vulnerabilities in Docker images,
 
 # How to Integrate SonarQube with Jenkins
 
-First, we generate a token in SonarQube and add it to Jenkins credentials. Then, we configure the SonarQube Scanner and server in Jenkins. After that, we create a webhook in SonarQube to connect it with Jenkins. Finally, we add SonarQube analysis to the Jenkins pipeline to check code quality and find bugs and security issues.
+First, we generate a token in SonarQube and add it to Jenkins credentials. Then, we configure the SonarQube Scanner and server in Jenkins. After that, we create a webhook in SonarQube to connect it with Jenkins. Finally, we add SonarQube stage to the Jenkins pipeline to check code quality and find bugs and security issues.
 
 ## How do you integrate SonarQube with Jenkins?
 
