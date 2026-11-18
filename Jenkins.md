@@ -140,17 +140,17 @@ A Jenkins Shared Library is used to reuse common code across multiple Jenkins pi
 
 We have multiple projects and use the same steps like building a Docker image, running SonarQube analysis. so, we can create a Shared Library and reuse that code in different Jenkins pipelines.
 
-## How to Integrate Jenkins with GitHub
+## How to Integrate Jenkins with GitHub.
 
 First, I generate a Personal Access Token in GitHub. Then, I go to Jenkins Credentials and add GitHub username and token. This allows Jenkins to access private GitHub repository securely.
 
-## GitHub Webhook
+## GitHub Webhook.
 
 A GitHub Webhook automatically triggers Jenkins whenever a developer pushes new code to a specific branch, such as the `release` branch.
 
 ## What Are the Daily Challenges You Face as a DevOps Engineer?
 
-we face different challenges during deployments. Sometimes, Jenkins builds fail, so we check the Console Output to identify,  what went wrong during build.
+We face different challenges during deployments. Sometimes, Jenkins builds fail, so we check the Console Output to identify,  what went wrong during build.
 
 One issue I handled was when an application worked properly in the development environment but failed in production.
 
